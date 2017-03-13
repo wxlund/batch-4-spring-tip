@@ -1,0 +1,210 @@
+
+[info 2017/03/10 10:18:13.664 PST <main> tid=0x1] Log opened with new distributed system connection.  View[10.0.0.45(loc-Waynes-MacBook-Pro-8.local:36730:locator)<ec><v0>:1025|0] members: [10.0.0.45(loc-Waynes-MacBook-Pro-8.local:36730:locator)<ec><v0>:1025]
+
+[info 2017/03/10 10:18:22.208 PST <DM-MemberEventInvoker> tid=0x1e] A new member joined: 10.0.0.45(loc-Waynes-MacBook-Pro-8.local:27829:locator)<ec><v1>:1024.  View[10.0.0.45(loc-Waynes-MacBook-Pro-8.local:36730:locator)<ec><v0>:1025|1] members: [10.0.0.45(loc-Waynes-MacBook-Pro-8.local:36730:locator)<ec><v0>:1025, 10.0.0.45(loc-Waynes-MacBook-Pro-8.local:27829:locator)<ec><v1>:1024]
+
+[info 2017/03/10 10:18:30.221 PST <DM-MemberEventInvoker> tid=0x1e] A new member joined: 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024.  View[10.0.0.45(loc-Waynes-MacBook-Pro-8.local:36730:locator)<ec><v0>:1025|3] members: [10.0.0.45(loc-Waynes-MacBook-Pro-8.local:36730:locator)<ec><v0>:1025, 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024{lead}]  crashed: [10.0.0.45(loc-Waynes-MacBook-Pro-8.local:27829:locator)<ec><v1>:1024]
+
+[info 2017/03/10 10:19:35.227 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 11:20:07.672 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 12:20:40.589 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 13:57:01.741 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 15:13:48.029 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 16:14:19.391 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 17:14:51.442 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 18:15:29.623 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 19:16:03.185 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 20:16:37.031 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 21:17:10.725 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 22:17:44.142 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/10 23:18:17.801 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 00:18:51.424 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 01:19:25.064 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 02:19:58.270 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 03:20:31.253 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 04:21:04.412 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 05:21:37.182 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 06:22:09.879 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 07:22:42.547 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 08:23:15.395 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 09:23:48.063 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 10:24:21.202 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 11:24:55.113 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 12:25:29.072 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 13:41:26.334 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 14:54:08.739 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 16:05:20.050 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 17:54:03.945 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 19:37:50.010 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 20:49:39.012 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 22:04:48.413 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/11 23:34:34.775 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 00:59:44.023 PST <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 03:21:05.030 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 04:37:46.468 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 05:50:20.151 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 06:58:11.077 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 07:58:52.189 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 09:32:28.032 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 10:32:41.060 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 11:51:56.025 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 12:55:28.118 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 14:45:55.440 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 16:04:20.356 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 17:08:47.609 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 18:09:34.185 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 19:12:12.069 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 20:12:58.904 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 21:14:42.035 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 22:15:31.025 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/12 23:18:10.042 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 00:18:56.648 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 01:21:33.152 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 02:22:20.310 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 03:29:32.313 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 04:30:20.009 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 05:32:58.042 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 06:33:45.960 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 07:34:20.392 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 08:34:53.908 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 09:35:26.689 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 10:36:00.528 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 12:19:00.001 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 13:20:42.049 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 14:21:31.058 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 
+
+[info 2017/03/13 15:22:18.391 PDT <P2P message reader for 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 shared ordered uid=3 port=53225> tid=0x62] server count: 1 connected client count: 0 client subscription queue count: 0
+  current servers : 10.0.0.45(server-Waynes-MacBook-Pro-8.local:36774)<v2>:1024 

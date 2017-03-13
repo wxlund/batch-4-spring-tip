@@ -1,0 +1,1202 @@
+
+[info 2017/03/09 13:40:24.678 PST loc1 <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+    
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with this
+    work for additional information regarding copyright ownership.
+     
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with the
+    License.  You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+    License for the specific language governing permissions and limitations
+    under the License.
+    
+  ---------------------------------------------------------------------------
+  Build-Date: 2016-12-15 21:30:03 +0000
+  Build-Id: root 8
+  Build-Java-Version: 1.8.0_111
+  Build-Platform: Linux 3.19.0-64-generic amd64
+  GemFire-Source-Date: 2016-12-05 21:18:08 +0000
+  GemFire-Source-Repository: HEAD
+  GemFire-Source-Revision: dafe5e7bbb94f2f8f0ee06c5b8582382084cb2cc
+  Product-Name: Pivotal GemFire
+  Product-Version: 9.0.1
+  Source-Date: 2016-12-15 18:19:41 +0000
+  Source-Repository: support/9.0
+  Source-Revision: 1af9c8f38f2e16bdb4d5887e34e48568fc93c161
+  Native version: native code unavailable
+  Running on: /10.0.0.45, 8 cpu(s), x86_64 Mac OS X 10.12.3 
+  Process ID: 23325
+  User: wlund
+  Current dir: /Users/wlund/Dropbox/git-workspace/wxlund/batch-4-spring-tip/batch-demo-java/scripts/loc1
+  Home dir: /Users/wlund
+  Command Line Parameters:
+    -Dgemfire.enable-cluster-configuration=true
+    -Dgemfire.load-cluster-configuration-from-dir=false
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /usr/local/Cellar/gemfire/9.0.1/libexec/lib/geode-core-9.0.1.jar
+    /usr/local/Cellar/gemfire/9.0.1/libexec/lib/geode-dependencies.jar
+  Library Path:
+    /Users/wlund/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      Locator.forceLocatorDMType = true
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      gemfire.enable-cluster-configuration = true
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.load-cluster-configuration-from-dir = false
+      gopherProxySet = false
+      http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/wlund/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/kd/trtc0t5x1lsf2v0fp31_2w780000gn/T/
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_91-b14
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_91
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.91-b14
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/kd/trtc0t5x1lsf2v0fp31_2w780000gn/T/jna-113232374/jna834662143967972540.tmp
+      line.separator = 
+  
+      os.version = 10.12.3
+      path.separator = :
+      socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = org.apache.geode.distributed.LocatorLauncher start loc1 --port=10334
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.timezone = America/Los_Angeles
+  Log4J 2 Configuration:
+      jar:file:/usr/local/Cellar/gemfire/9.0.1/libexec/lib/geode-core-9.0.1.jar!/log4j2.xml
+  ---------------------------------------------------------------------------
+  
+
+[info 2017/03/09 13:40:24.989 PST loc1 <main> tid=0x1] Starting peer location for Distribution Locator on 10.0.0.45[0]
+
+[info 2017/03/09 13:40:24.991 PST loc1 <main> tid=0x1] Starting Distribution Locator on 10.0.0.45[0]
+
+[info 2017/03/09 13:40:24.992 PST loc1 <main> tid=0x1] Locator was created at Thu Mar 09 13:40:24 PST 2017
+
+[info 2017/03/09 13:40:24.992 PST loc1 <main> tid=0x1] Listening on port 10334 bound on address 0.0.0.0/0.0.0.0
+
+[info 2017/03/09 13:40:24.993 PST loc1 <main> tid=0x1] GemFire peer location service starting.  Other locators:   Locators preferred as coordinators: true  Network partition detection enabled: true  View persistence file: locator10334view.dat
+
+[info 2017/03/09 13:40:24.994 PST loc1 <main> tid=0x1] Starting distributed system
+
+[info 2017/03/09 13:40:25.034 PST loc1 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  enable-cluster-configuration=true
+  load-cluster-configuration-from-dir=false
+  ### GemFire Properties defined with api ###
+  cache-xml-file=
+  locators=10.0.0.45[10334]
+  name=loc1
+  ### GemFire Properties defined with launcher ###
+  log-file=loc1.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=.
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=true
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-dev-rest-api=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  use-cluster-configuration=true
+  user-command-packages=
+  
+
+[info 2017/03/09 13:40:25.065 PST loc1 <main> tid=0x1] 
+  ---------------------------------------------------------------------------
+    
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with this
+    work for additional information regarding copyright ownership.
+     
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with the
+    License.  You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+    WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
+    License for the specific language governing permissions and limitations
+    under the License.
+    
+  ---------------------------------------------------------------------------
+  Build-Date: 2016-12-15 21:30:03 +0000
+  Build-Id: root 8
+  Build-Java-Version: 1.8.0_111
+  Build-Platform: Linux 3.19.0-64-generic amd64
+  GemFire-Source-Date: 2016-12-05 21:18:08 +0000
+  GemFire-Source-Repository: HEAD
+  GemFire-Source-Revision: dafe5e7bbb94f2f8f0ee06c5b8582382084cb2cc
+  Product-Name: Pivotal GemFire
+  Product-Version: 9.0.1
+  Source-Date: 2016-12-15 18:19:41 +0000
+  Source-Repository: support/9.0
+  Source-Revision: 1af9c8f38f2e16bdb4d5887e34e48568fc93c161
+  Native version: native code unavailable
+  Running on: 10.0.0.45/10.0.0.45, 8 cpu(s), x86_64 Mac OS X 10.12.3 
+  Process ID: 23325
+  User: wlund
+  Current dir: /Users/wlund/Dropbox/git-workspace/wxlund/batch-4-spring-tip/batch-demo-java/scripts/loc1
+  Home dir: /Users/wlund
+  Command Line Parameters:
+    -Dgemfire.enable-cluster-configuration=true
+    -Dgemfire.load-cluster-configuration-from-dir=false
+    -Dgemfire.launcher.registerSignalHandlers=true
+    -Djava.awt.headless=true
+    -Dsun.rmi.dgc.server.gcInterval=9223372036854775806
+  Class Path:
+    /usr/local/Cellar/gemfire/9.0.1/libexec/lib/geode-core-9.0.1.jar
+    /usr/local/Cellar/gemfire/9.0.1/libexec/lib/geode-dependencies.jar
+  Library Path:
+    /Users/wlund/Library/Java/Extensions
+    /Library/Java/Extensions
+    /Network/Library/Java/Extensions
+    /System/Library/Java/Extensions
+    /usr/lib/java
+    .
+  System Properties:
+      Locator.forceLocatorDMType = true
+      awt.toolkit = sun.lwawt.macosx.LWCToolkit
+      file.encoding = UTF-8
+      file.encoding.pkg = sun.io
+      file.separator = /
+      ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      gemfire.enable-cluster-configuration = true
+      gemfire.launcher.registerSignalHandlers = true
+      gemfire.load-cluster-configuration-from-dir = false
+      gopherProxySet = false
+      http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+      java.awt.headless = true
+      java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+      java.class.version = 52.0
+      java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed
+      java.ext.dirs = /Users/wlund/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+      java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre
+      java.io.tmpdir = /var/folders/kd/trtc0t5x1lsf2v0fp31_2w780000gn/T/
+      java.rmi.server.randomIDs = true
+      java.runtime.name = Java(TM) SE Runtime Environment
+      java.runtime.version = 1.8.0_91-b14
+      java.specification.name = Java Platform API Specification
+      java.specification.vendor = Oracle Corporation
+      java.specification.version = 1.8
+      java.vendor = Oracle Corporation
+      java.vendor.url = http://java.oracle.com/
+      java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+      java.version = 1.8.0_91
+      java.vm.info = mixed mode
+      java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+      java.vm.specification.name = Java Virtual Machine Specification
+      java.vm.specification.vendor = Oracle Corporation
+      java.vm.specification.version = 1.8
+      java.vm.vendor = Oracle Corporation
+      java.vm.version = 25.91-b14
+      jna.platform.library.path = /usr/lib:/usr/lib
+      jnidispatch.path = /var/folders/kd/trtc0t5x1lsf2v0fp31_2w780000gn/T/jna-113232374/jna834662143967972540.tmp
+      line.separator = 
+  
+      os.version = 10.12.3
+      path.separator = :
+      socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+      sun.arch.data.model = 64
+      sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes
+      sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib
+      sun.cpu.endian = little
+      sun.cpu.isalist = 
+      sun.io.unicode.encoding = UnicodeBig
+      sun.java.command = org.apache.geode.distributed.LocatorLauncher start loc1 --port=10334
+      sun.java.launcher = SUN_STANDARD
+      sun.jnu.encoding = UTF-8
+      sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+      sun.os.patch.level = unknown
+      sun.rmi.dgc.server.gcInterval = 9223372036854775806
+      user.country = US
+      user.language = en
+      user.timezone = America/Los_Angeles
+  Log4J 2 Configuration:
+      jar:file:/usr/local/Cellar/gemfire/9.0.1/libexec/lib/geode-core-9.0.1.jar!/log4j2.xml
+  ---------------------------------------------------------------------------
+  
+
+[info 2017/03/09 13:40:25.067 PST loc1 <main> tid=0x1] Startup Configuration:
+   ### GemFire Properties defined with system property ###
+  enable-cluster-configuration=true
+  load-cluster-configuration-from-dir=false
+  ### GemFire Properties defined with api ###
+  cache-xml-file=
+  locators=10.0.0.45[10334]
+  name=loc1
+  ### GemFire Properties defined with launcher ###
+  log-file=loc1.log
+  ### GemFire Properties using default values ###
+  ack-severe-alert-threshold=0
+  ack-wait-threshold=15
+  archive-disk-space-limit=0
+  archive-file-size-limit=0
+  async-distribution-timeout=0
+  async-max-queue-size=8
+  async-queue-timeout=60000
+  bind-address=
+  cluster-configuration-dir=
+  cluster-ssl-ciphers=any
+  cluster-ssl-enabled=false
+  cluster-ssl-keystore=
+  cluster-ssl-keystore-password=
+  cluster-ssl-keystore-type=
+  cluster-ssl-protocols=any
+  cluster-ssl-require-authentication=true
+  cluster-ssl-truststore=
+  cluster-ssl-truststore-password=
+  conflate-events=server
+  conserve-sockets=true
+  delta-propagation=true
+  deploy-working-dir=.
+  disable-auto-reconnect=false
+  disable-tcp=false
+  distributed-system-id=-1
+  distributed-transactions=false
+  durable-client-id=
+  durable-client-timeout=300
+  enable-network-partition-detection=true
+  enable-time-statistics=false
+  enforce-unique-host=false
+  gateway-ssl-ciphers=any
+  gateway-ssl-enabled=false
+  gateway-ssl-keystore=
+  gateway-ssl-keystore-password=
+  gateway-ssl-keystore-type=
+  gateway-ssl-protocols=any
+  gateway-ssl-require-authentication=true
+  gateway-ssl-truststore=
+  gateway-ssl-truststore-password=
+  groups=
+  http-service-bind-address=
+  http-service-port=7070
+  http-service-ssl-ciphers=any
+  http-service-ssl-enabled=false
+  http-service-ssl-keystore=
+  http-service-ssl-keystore-password=
+  http-service-ssl-keystore-type=
+  http-service-ssl-protocols=any
+  http-service-ssl-require-authentication=false
+  http-service-ssl-truststore=
+  http-service-ssl-truststore-password=
+  jmx-manager=true
+  jmx-manager-access-file=
+  jmx-manager-bind-address=
+  jmx-manager-hostname-for-clients=
+  jmx-manager-http-port=7070
+  jmx-manager-password-file=
+  jmx-manager-port=1099
+  jmx-manager-ssl-ciphers=any
+  jmx-manager-ssl-enabled=false
+  jmx-manager-ssl-keystore=
+  jmx-manager-ssl-keystore-password=
+  jmx-manager-ssl-keystore-type=
+  jmx-manager-ssl-protocols=any
+  jmx-manager-ssl-require-authentication=true
+  jmx-manager-ssl-truststore=
+  jmx-manager-ssl-truststore-password=
+  jmx-manager-start=false
+  jmx-manager-update-rate=2000
+  locator-wait-time=0
+  lock-memory=false
+  log-disk-space-limit=0
+  log-file-size-limit=0
+  log-level=config
+  max-num-reconnect-tries=3
+  max-wait-time-reconnect=60000
+  mcast-address=239.192.81.1
+  mcast-flow-control=1048576, 0.25, 5000
+  mcast-port=0
+  mcast-recv-buffer-size=1048576
+  mcast-send-buffer-size=65535
+  mcast-ttl=32
+  member-timeout=5000
+  membership-port-range=1024-65535
+  memcached-bind-address=
+  memcached-port=0
+  memcached-protocol=ASCII
+  off-heap-memory-size=
+  redis-bind-address=
+  redis-password=
+  redis-port=0
+  redundancy-zone=
+  remote-locators=
+  remove-unresponsive-client=false
+  roles=
+  security-client-accessor=
+  security-client-accessor-pp=
+  security-client-auth-init=
+  security-client-authenticator=
+  security-client-dhalgo=
+  security-log-file=
+  security-log-level=config
+  security-manager=
+  security-peer-auth-init=
+  security-peer-authenticator=
+  security-peer-verifymember-timeout=1000
+  security-post-processor=
+  security-udp-dhalgo=
+  server-bind-address=
+  server-ssl-ciphers=any
+  server-ssl-enabled=false
+  server-ssl-keystore=
+  server-ssl-keystore-password=
+  server-ssl-keystore-type=
+  server-ssl-protocols=any
+  server-ssl-require-authentication=true
+  server-ssl-truststore=
+  server-ssl-truststore-password=
+  socket-buffer-size=32768
+  socket-lease-time=60000
+  ssl-ciphers=any
+  ssl-cluster-alias=
+  ssl-default-alias=
+  ssl-enabled-components=
+  ssl-gateway-alias=
+  ssl-jmx-alias=
+  ssl-keystore=
+  ssl-keystore-password=
+  ssl-keystore-type=
+  ssl-locator-alias=
+  ssl-protocols=any
+  ssl-require-authentication=true
+  ssl-server-alias=
+  ssl-truststore=
+  ssl-truststore-password=
+  ssl-web-alias=
+  ssl-web-require-authentication=false
+  start-dev-rest-api=false
+  start-locator=
+  statistic-archive-file=
+  statistic-sample-rate=1000
+  statistic-sampling-enabled=true
+  tcp-port=0
+  udp-fragment-size=60000
+  udp-recv-buffer-size=1048576
+  udp-send-buffer-size=65535
+  use-cluster-configuration=true
+  user-command-packages=
+  
+
+[info 2017/03/09 13:40:25.232 PST loc1 <main> tid=0x1] Peer locator is connecting to local membership services
+
+[info 2017/03/09 13:40:25.233 PST loc1 <main> tid=0x1] Starting membership services
+
+[info 2017/03/09 13:40:25.310 PST loc1 <main> tid=0x1] JGroups channel created (took 77ms)
+
+[info 2017/03/09 13:40:25.325 PST loc1 <main> tid=0x1] GemFire P2P Listener started on  null
+
+[info 2017/03/09 13:40:25.326 PST loc1 <main> tid=0x1] This member is hosting a locator will be preferred as a membership coordinator
+
+[info 2017/03/09 13:40:25.327 PST loc1 <Geode Failure Detection Server thread 0> tid=0x25] Started failure detection server thread on /10.0.0.45:24262.
+
+[info 2017/03/09 13:40:25.338 PST loc1 <main> tid=0x1] This member is becoming the membership coordinator with address 10.0.0.45(loc1:23325:locator)<ec>:1024
+
+[info 2017/03/09 13:40:25.338 PST loc1 <main> tid=0x1] received new view: View[10.0.0.45(loc1:23325:locator)<ec><v0>:1024|0] members: [10.0.0.45(loc1:23325:locator)<ec><v0>:1024]
+  old view is: null
+
+[info 2017/03/09 13:40:25.339 PST loc1 <main> tid=0x1] Peer locator received new membership view: View[10.0.0.45(loc1:23325:locator)<ec><v0>:1024|0] members: [10.0.0.45(loc1:23325:locator)<ec><v0>:1024]
+
+[info 2017/03/09 13:40:25.350 PST loc1 <main> tid=0x1] ViewCreator starting on:10.0.0.45(loc1:23325:locator)<ec><v0>:1024
+
+[info 2017/03/09 13:40:25.350 PST loc1 <Geode Membership View Creator> tid=0x28] View Creator thread is starting
+
+[info 2017/03/09 13:40:25.350 PST loc1 <Geode Membership View Creator> tid=0x28] no recipients for new view aside from myself
+
+[info 2017/03/09 13:40:25.350 PST loc1 <main> tid=0x1] Finished joining (took 22ms).
+
+[info 2017/03/09 13:40:25.351 PST loc1 <main> tid=0x1] Starting DistributionManager 10.0.0.45(loc1:23325:locator)<ec><v0>:1024.  (took 236 ms)
+
+[info 2017/03/09 13:40:25.355 PST loc1 <main> tid=0x1] Initial (distribution manager) view =  View[10.0.0.45(loc1:23325:locator)<ec><v0>:1024|0] members: [10.0.0.45(loc1:23325:locator)<ec><v0>:1024]
+
+[info 2017/03/09 13:40:25.356 PST loc1 <main> tid=0x1] Admitting member <10.0.0.45(loc1:23325:locator)<ec><v0>:1024>. Now there are 1 non-admin member(s).
+
+[info 2017/03/09 13:40:25.356 PST loc1 <main> tid=0x1] 10.0.0.45(loc1:23325:locator)<ec><v0>:1024 is the elder and the only member.
+
+[info 2017/03/09 13:40:25.359 PST loc1 <main> tid=0x1] Did not hear back from any other system. I am the first one.
+
+[info 2017/03/09 13:40:25.372 PST loc1 <main> tid=0x1] Creating cache for locator.
+
+[info 2017/03/09 13:40:25.577 PST loc1 <main> tid=0x1] Initializing region _monitoringRegion_10.0.0.45<v0>1024
+
+[info 2017/03/09 13:40:25.580 PST loc1 <main> tid=0x1] Initialization of region _monitoringRegion_10.0.0.45<v0>1024 completed
+
+[info 2017/03/09 13:40:26.345 PST loc1 <main> tid=0x1] SharedConfigStatusRequestHandler installed
+
+[info 2017/03/09 13:40:26.346 PST loc1 <main> tid=0x1] Locator started on  10.0.0.45[10334]
+
+[info 2017/03/09 13:40:26.346 PST loc1 <main> tid=0x1] Starting server location for Distribution Locator on 10.0.0.45[10334]
+
+[info 2017/03/09 13:40:26.393 PST loc1 <Pooled Message Processor 1> tid=0x35] Created disk store cluster_config with unique id 1c6b8c53f59452c-b63ad557eeeec3b8
+
+[info 2017/03/09 13:40:26.404 PST loc1 <Pooled Message Processor 1> tid=0x35] recovery region initialization took 1 ms
+
+[info 2017/03/09 13:40:26.493 PST loc1 <Pooled Message Processor 1> tid=0x35] Created oplog#1 drf for disk store cluster_config.
+
+[info 2017/03/09 13:40:26.617 PST loc1 <Pooled Message Processor 1> tid=0x35] Created oplog#1 crf for disk store cluster_config.
+
+[info 2017/03/09 13:40:26.621 PST loc1 <Pooled Message Processor 1> tid=0x35] Initializing region _ConfigurationRegion
+
+[info 2017/03/09 13:40:26.622 PST loc1 <Pooled Message Processor 1> tid=0x35] Region /_ConfigurationRegion was created on this member with the persistent id /10.0.0.45:/Users/wlund/Dropbox/git-workspace/wxlund/batch-4-spring-tip/batch-demo-java/scripts/loc1/ConfigDiskDir_loc1 created at timestamp 1489095626621 version 0 diskStoreId 1c6b8c53f59452c-b63ad557eeeec3b8 name loc1.
+
+[info 2017/03/09 13:40:26.627 PST loc1 <Pooled Message Processor 1> tid=0x35] Initialization of region _ConfigurationRegion completed
+
+[info 2017/03/09 13:40:26.709 PST loc1 <Pooled Message Processor 1> tid=0x35] Completed writing the shared configuration to 'cluster_config' directory
+
+[info 2017/03/09 13:40:26.709 PST loc1 <Pooled Message Processor 1> tid=0x35] Getting Jar files from other locators
+
+[info 2017/03/09 13:40:26.710 PST loc1 <Pooled Message Processor 1> tid=0x35] No other locators present
+
+[info 2017/03/09 13:40:26.711 PST loc1 <Pooled Message Processor 1> tid=0x35] ConfigRequestHandler installed
+
+[info 2017/03/09 13:40:26.711 PST loc1 <Pooled Message Processor 1> tid=0x35] Cluster configuration service start up completed successfully and is now running ....
+
+[info 2017/03/09 13:40:26.914 PST loc1 <locator request thread[1]> tid=0x27] GEMFIRE HOME:/usr/local/Cellar/gemfire/9.0.1/libexec
+
+[info 2017/03/09 13:40:26.916 PST loc1 <locator request thread[1]> tid=0x27] geode-web war found: /usr/local/Cellar/gemfire/9.0.1/libexec/tools/Extensions/geode-web-9.0.1.war
+
+[info 2017/03/09 13:40:26.916 PST loc1 <locator request thread[1]> tid=0x27] GEMFIRE HOME:/usr/local/Cellar/gemfire/9.0.1/libexec
+
+[info 2017/03/09 13:40:26.917 PST loc1 <locator request thread[1]> tid=0x27] geode-pulse war found: /usr/local/Cellar/gemfire/9.0.1/libexec/tools/Pulse/geode-pulse-9.0.1.war
+
+[info 2017/03/09 13:40:26.917 PST loc1 <locator request thread[1]> tid=0x27] GEMFIRE HOME:/usr/local/Cellar/gemfire/9.0.1/libexec
+
+[info 2017/03/09 13:40:26.917 PST loc1 <locator request thread[1]> tid=0x27] geode-web-api war found: /usr/local/Cellar/gemfire/9.0.1/libexec/tools/Extensions/geode-web-api-9.0.1.war
+
+[info 2017/03/09 13:40:26.937 PST loc1 <locator request thread[1]> tid=0x27] Logging initialized @3399ms
+
+[info 2017/03/09 13:40:27.020 PST loc1 <locator request thread[1]> tid=0x27] jetty-9.3.6.v20151106
+
+[info 2017/03/09 13:40:27.249 PST loc1 <locator request thread[1]> tid=0x27] NO JSP Support for /gemfire, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+[info 2017/03/09 13:40:27.563 PST loc1 <locator request thread[1]> tid=0x27] Initializing Spring FrameworkServlet 'geode-mgmt'
+
+[info 2017/03/09 13:40:27.564 PST loc1 <locator request thread[1]> tid=0x27] FrameworkServlet 'geode-mgmt': initialization started
+
+[info 2017/03/09 13:40:27.577 PST loc1 <locator request thread[1]> tid=0x27] Refreshing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Mar 09 13:40:27 PST 2017]; root of context hierarchy
+
+[info 2017/03/09 13:40:27.602 PST loc1 <locator request thread[1]> tid=0x27] Loading XML bean definitions from ServletContext resource [/WEB-INF/geode-mgmt-servlet.xml]
+
+[info 2017/03/09 13:40:27.995 PST loc1 <locator request thread[1]> tid=0x27] Initializing ExecutorService  'asyncTaskExecutor'
+
+[info 2017/03/09 13:40:28.118 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/clients/{clientID}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ClientCommandsController.describeClient(java.lang.String)
+
+[info 2017/03/09 13:40:28.119 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/clients],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ClientCommandsController.listClients()
+
+[info 2017/03/09 13:40:28.120 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/services/cluster-config],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ClusterCommandsController.statusClusterConfig()
+
+[info 2017/03/09 13:40:28.122 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/config],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ConfigCommandsController.describeConfig(java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.123 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/config],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.ConfigCommandsController.exportConfig(java.lang.String[],java.lang.String[],java.lang.String)
+
+[info 2017/03/09 13:40:28.123 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/config],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ConfigCommandsController.alterRuntime(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+
+[info 2017/03/09 13:40:28.123 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/config/cluster],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.ConfigCommandsController.exportClusterConfig(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.124 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/config/cluster],methods=[POST]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.ConfigCommandsController.importClusterConfig(org.springframework.web.multipart.MultipartFile[],java.lang.String) throws java.io.IOException
+
+[info 2017/03/09 13:40:28.130 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{region}/data],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DataCommandsController.remove(java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.130 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{region}/data],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DataCommandsController.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.130 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{region}/data],methods=[PUT]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DataCommandsController.put(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.130 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/data/query],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DataCommandsController.query(org.springframework.web.context.request.WebRequest,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.131 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/regions/{region}/data],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DataCommandsController.exportData(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.131 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/regions/{region}/data],methods=[POST]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DataCommandsController.importData(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.131 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{region}/data/location],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DataCommandsController.locateEntry(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.131 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/data],methods=[POST],params=[op=rebalance]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DataCommandsController.rebalance(java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Long)
+
+[info 2017/03/09 13:40:28.133 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/deployed],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DeployCommandsController.deploy(org.springframework.web.multipart.MultipartFile[],java.lang.String[],java.lang.String,java.lang.String) throws java.io.IOException
+
+[info 2017/03/09 13:40:28.133 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/deployed],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DeployCommandsController.undeploy(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.133 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/deployed],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DeployCommandsController.listDeployed(java.lang.String[])
+
+[info 2017/03/09 13:40:28.136 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.listDiskStores()
+
+[info 2017/03/09 13:40:28.136 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/{name}],methods=[POST],params=[op=compact]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.compactDiskStore(java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.136 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.createDiskStore(java.lang.String,java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Long,java.lang.Integer,java.lang.Float,java.lang.Integer,java.lang.String[])
+
+[info 2017/03/09 13:40:28.136 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores],methods=[POST],params=[op=backup]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.backupDiskStore(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.137 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/{name}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.describeDiskStore(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.137 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/{id}],methods=[POST],params=[op=revoke]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.revokeMissingDiskStore(java.lang.String)
+
+[info 2017/03/09 13:40:28.137 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/{name}],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.destroyDiskStore(java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.137 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/missing],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.showMissingDiskStores()
+
+[info 2017/03/09 13:40:28.139 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}],methods=[POST],params=[op=close]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.closeDurableClient(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.140 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.listDurableClientContinuousQueries(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.140 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/{durable-cq-name}/events],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.countDurableClientContinuousQueryEvents(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.140 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/events],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.countDurableClientContinuousQueryEvents(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.141 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/{durable-cq-name}],methods=[POST],params=[op=close]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.closeDurableContinuousQuery(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.142 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/functions/{id}],methods=[POST]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.FunctionCommandsController.executeFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String[],java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.142 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/functions/{id}],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.FunctionCommandsController.destroyFunction(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.143 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/functions],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.FunctionCommandsController.listFunctions(java.lang.String[],java.lang.String[],java.lang.String)
+
+[info 2017/03/09 13:40:28.145 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.createIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.145 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[POST],params=[op=define]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.defineIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.145 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[POST],params=[op=create-defined]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.createDefinedIndexes(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.146 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[DELETE],params=[op=clear-defined]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.clearDefinedIndexes()
+
+[info 2017/03/09 13:40:28.146 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.listIndex(java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.146 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes/{name}],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.destroyIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.146 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.destroyIndexes(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.147 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{name}/locator],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.LauncherLifecycleCommandsController.statusLocator(java.lang.String)
+
+[info 2017/03/09 13:40:28.147 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{name}/server],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.LauncherLifecycleCommandsController.statusServer(java.lang.String)
+
+[info 2017/03/09 13:40:28.148 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MemberCommandsController.listMembers(java.lang.String)
+
+[info 2017/03/09 13:40:28.149 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{name}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MemberCommandsController.describeMember(java.lang.String)
+
+[info 2017/03/09 13:40:28.151 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/shutdown],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.shutdown(java.lang.Integer,boolean)
+
+[info 2017/03/09 13:40:28.152 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gc],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.gc(java.lang.String[])
+
+[info 2017/03/09 13:40:28.152 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/gc],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.gc(java.lang.String)
+
+[info 2017/03/09 13:40:28.152 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/log],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.showLog(java.lang.String,java.lang.Integer)
+
+[info 2017/03/09 13:40:28.152 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/netstat],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.netstat(java.lang.String[],java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.153 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/logs],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.exportLogs(java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.153 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/metrics],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.showMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.153 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/stacktraces],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.exportStackTraces(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.153 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/deadlocks],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.showDeadLock(java.lang.String)
+
+[info 2017/03/09 13:40:28.153 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/groups/{groups}/loglevel],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForGroups(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.153 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{members}/loglevel],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForMembers(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.154 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{members}/groups/{groups}/loglevel],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForMembersAndGroups(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.154 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/pdx/type],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.PdxCommandsController.pdxRename(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.155 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/pdx],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.PdxCommandsController.configurePdx(java.lang.Boolean,java.lang.Boolean,java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.155 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/async-event-queues],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.QueueCommandsController.createAsyncEventQueue(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String)
+
+[info 2017/03/09 13:40:28.156 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/async-event-queues],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.QueueCommandsController.listAsyncEventQueues()
+
+[info 2017/03/09 13:40:28.157 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.createRegion(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],java.lang.Boolean,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.Boolean,java.lang.String[],java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Long,java.lang.Integer,java.lang.Long,java.lang.Long,java.lang.Integer,java.lang.String)
+
+[info 2017/03/09 13:40:28.158 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{name}],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.destroyRegion(java.lang.String)
+
+[info 2017/03/09 13:40:28.158 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.listRegions(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.158 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{name}],methods=[PUT]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.alterRegion(org.springframework.web.context.request.WebRequest,java.lang.String,java.lang.String[],java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Integer)
+
+[info 2017/03/09 13:40:28.158 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{name}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.describeRegion(java.lang.String)
+
+[info 2017/03/09 13:40:28.161 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/mbean/operation],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.invoke(java.lang.String,java.lang.String,java.lang.String[],java.lang.Object[])
+
+[info 2017/03/09 13:40:28.161 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/index],methods=[GET],produces=[application/xml]}" onto public org.apache.geode.management.internal.web.domain.LinkIndex org.apache.geode.management.internal.web.controllers.ShellCommandsController.index(java.lang.String)
+
+[info 2017/03/09 13:40:28.161 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/version],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.version()
+
+[info 2017/03/09 13:40:28.161 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/management/commands],methods=[POST],params=[cmd]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.command(java.lang.String)
+
+[info 2017/03/09 13:40:28.162 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/mbean/query],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.queryNames(org.apache.geode.management.internal.web.domain.QueryParameterSource)
+
+[info 2017/03/09 13:40:28.162 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/mbean/attribute],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.getAttribute(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.162 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/ping],methods=[GET || HEAD]}" onto public org.springframework.http.ResponseEntity<java.lang.String> org.apache.geode.management.internal.web.controllers.ShellCommandsController.ping()
+
+[info 2017/03/09 13:40:28.162 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/version/full],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.versionSimple()
+
+[info 2017/03/09 13:40:28.165 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders],methods=[POST],params=[op=start]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.startGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.165 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.createGatewaySender(java.lang.String,java.lang.Integer,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.String,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.165 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=pause]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.pauseGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.165 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=resume]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.resumeGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.165 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=stop]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.stopGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.165 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/receivers],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.createGatewayReceiver(java.lang.String[],java.lang.Boolean,java.lang.String[],java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String[])
+
+[info 2017/03/09 13:40:28.166 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=load-balance]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.loadBalanceGatewaySender(java.lang.String)
+
+[info 2017/03/09 13:40:28.166 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/receivers],methods=[POST],params=[op=start]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.startGatewayReceiver(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.166 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/receivers],methods=[POST],params=[op=stop]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.stopGatewayReceiver(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.166 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.listGateways(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.166 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/receivers],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.statusGatewayReceivers(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.166 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.statusGatewaySenders(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.219 PST loc1 <locator request thread[1]> tid=0x27] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Mar 09 13:40:27 PST 2017]; root of context hierarchy
+
+[info 2017/03/09 13:40:28.254 PST loc1 <locator request thread[1]> tid=0x27] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Mar 09 13:40:27 PST 2017]; root of context hierarchy
+
+[info 2017/03/09 13:40:28.337 PST loc1 <locator request thread[1]> tid=0x27] FrameworkServlet 'geode-mgmt': initialization completed in 773 ms
+
+[info 2017/03/09 13:40:28.337 PST loc1 <locator request thread[1]> tid=0x27] Started o.e.j.w.WebAppContext@418c1f13{/gemfire,file:///Users/wlund/Dropbox/git-workspace/wxlund/batch-4-spring-tip/batch-demo-java/scripts/loc1/GemFire_wlund/services/http/0.0.0.0_7070_gemfire/webapp/,AVAILABLE}{/usr/local/Cellar/gemfire/9.0.1/libexec/tools/Extensions/geode-web-9.0.1.war}
+
+[info 2017/03/09 13:40:28.442 PST loc1 <locator request thread[1]> tid=0x27] NO JSP Support for /geode-mgmt, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+[info 2017/03/09 13:40:28.484 PST loc1 <locator request thread[1]> tid=0x27] Initializing Spring FrameworkServlet 'geode-mgmt'
+
+[info 2017/03/09 13:40:28.485 PST loc1 <locator request thread[1]> tid=0x27] FrameworkServlet 'geode-mgmt': initialization started
+
+[info 2017/03/09 13:40:28.493 PST loc1 <locator request thread[1]> tid=0x27] Refreshing WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Mar 09 13:40:28 PST 2017]; root of context hierarchy
+
+[info 2017/03/09 13:40:28.514 PST loc1 <locator request thread[1]> tid=0x27] Loading XML bean definitions from ServletContext resource [/WEB-INF/geode-mgmt-servlet.xml]
+
+[info 2017/03/09 13:40:28.749 PST loc1 <locator request thread[1]> tid=0x27] Initializing ExecutorService  'asyncTaskExecutor'
+
+[info 2017/03/09 13:40:28.813 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/clients/{clientID}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ClientCommandsController.describeClient(java.lang.String)
+
+[info 2017/03/09 13:40:28.813 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/clients],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ClientCommandsController.listClients()
+
+[info 2017/03/09 13:40:28.814 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/services/cluster-config],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ClusterCommandsController.statusClusterConfig()
+
+[info 2017/03/09 13:40:28.816 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/config],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ConfigCommandsController.describeConfig(java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.817 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/config],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.ConfigCommandsController.exportConfig(java.lang.String[],java.lang.String[],java.lang.String)
+
+[info 2017/03/09 13:40:28.817 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/config],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ConfigCommandsController.alterRuntime(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+
+[info 2017/03/09 13:40:28.818 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/config/cluster],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.ConfigCommandsController.exportClusterConfig(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.818 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/config/cluster],methods=[POST]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.ConfigCommandsController.importClusterConfig(org.springframework.web.multipart.MultipartFile[],java.lang.String) throws java.io.IOException
+
+[info 2017/03/09 13:40:28.824 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{region}/data],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DataCommandsController.remove(java.lang.String,java.lang.Boolean,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.824 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{region}/data],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DataCommandsController.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.824 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{region}/data],methods=[PUT]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DataCommandsController.put(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.825 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/data/query],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DataCommandsController.query(org.springframework.web.context.request.WebRequest,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.825 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/regions/{region}/data],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DataCommandsController.exportData(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.826 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/regions/{region}/data],methods=[POST]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DataCommandsController.importData(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.826 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{region}/data/location],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DataCommandsController.locateEntry(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.826 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/data],methods=[POST],params=[op=rebalance]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DataCommandsController.rebalance(java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Long)
+
+[info 2017/03/09 13:40:28.827 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/deployed],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DeployCommandsController.deploy(org.springframework.web.multipart.MultipartFile[],java.lang.String[],java.lang.String,java.lang.String) throws java.io.IOException
+
+[info 2017/03/09 13:40:28.828 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/deployed],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DeployCommandsController.undeploy(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.828 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/deployed],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DeployCommandsController.listDeployed(java.lang.String[])
+
+[info 2017/03/09 13:40:28.830 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.listDiskStores()
+
+[info 2017/03/09 13:40:28.830 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/{name}],methods=[POST],params=[op=compact]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.compactDiskStore(java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.830 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.createDiskStore(java.lang.String,java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Long,java.lang.Integer,java.lang.Float,java.lang.Integer,java.lang.String[])
+
+[info 2017/03/09 13:40:28.831 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores],methods=[POST],params=[op=backup]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.backupDiskStore(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.831 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/{name}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.describeDiskStore(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.831 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/{id}],methods=[POST],params=[op=revoke]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.revokeMissingDiskStore(java.lang.String)
+
+[info 2017/03/09 13:40:28.831 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/{name}],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.destroyDiskStore(java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.832 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/diskstores/missing],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DiskStoreCommandsController.showMissingDiskStores()
+
+[info 2017/03/09 13:40:28.833 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}],methods=[POST],params=[op=close]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.closeDurableClient(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.834 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.listDurableClientContinuousQueries(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.834 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/{durable-cq-name}/events],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.countDurableClientContinuousQueryEvents(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.834 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/events],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.countDurableClientContinuousQueryEvents(java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.834 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/durable-clients/{durable-client-id}/cqs/{durable-cq-name}],methods=[POST],params=[op=close]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.DurableClientCommandsController.closeDurableContinuousQuery(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.835 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/functions/{id}],methods=[POST]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.FunctionCommandsController.executeFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String[],java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.835 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/functions/{id}],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.FunctionCommandsController.destroyFunction(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.835 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/functions],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.FunctionCommandsController.listFunctions(java.lang.String[],java.lang.String[],java.lang.String)
+
+[info 2017/03/09 13:40:28.837 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.createIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.838 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[POST],params=[op=define]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.defineIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.838 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[POST],params=[op=create-defined]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.createDefinedIndexes(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.838 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[DELETE],params=[op=clear-defined]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.clearDefinedIndexes()
+
+[info 2017/03/09 13:40:28.839 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.listIndex(java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.839 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes/{name}],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.destroyIndex(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.839 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/indexes],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.IndexCommandsController.destroyIndexes(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.840 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{name}/locator],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.LauncherLifecycleCommandsController.statusLocator(java.lang.String)
+
+[info 2017/03/09 13:40:28.840 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{name}/server],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.LauncherLifecycleCommandsController.statusServer(java.lang.String)
+
+[info 2017/03/09 13:40:28.841 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MemberCommandsController.listMembers(java.lang.String)
+
+[info 2017/03/09 13:40:28.841 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{name}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MemberCommandsController.describeMember(java.lang.String)
+
+[info 2017/03/09 13:40:28.844 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/shutdown],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.shutdown(java.lang.Integer,boolean)
+
+[info 2017/03/09 13:40:28.844 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gc],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.gc(java.lang.String[])
+
+[info 2017/03/09 13:40:28.844 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/gc],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.gc(java.lang.String)
+
+[info 2017/03/09 13:40:28.844 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{member}/log],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.showLog(java.lang.String,java.lang.Integer)
+
+[info 2017/03/09 13:40:28.845 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/netstat],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.netstat(java.lang.String[],java.lang.String,java.lang.String,java.lang.Boolean)
+
+[info 2017/03/09 13:40:28.845 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/logs],methods=[GET]}" onto public java.util.concurrent.Callable<org.springframework.http.ResponseEntity<java.lang.String>> org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.exportLogs(java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.845 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/metrics],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.showMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.845 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/stacktraces],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.exportStackTraces(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.846 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/deadlocks],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.showDeadLock(java.lang.String)
+
+[info 2017/03/09 13:40:28.846 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/groups/{groups}/loglevel],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForGroups(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.846 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{members}/loglevel],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForMembers(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.846 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/members/{members}/groups/{groups}/loglevel],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.MiscellaneousCommandsController.changeLogLevelForMembersAndGroups(java.lang.String,java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.847 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/pdx/type],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.PdxCommandsController.pdxRename(java.lang.String,java.lang.String,java.lang.String,java.lang.String[])
+
+[info 2017/03/09 13:40:28.848 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/pdx],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.PdxCommandsController.configurePdx(java.lang.Boolean,java.lang.Boolean,java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.848 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/async-event-queues],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.QueueCommandsController.createAsyncEventQueue(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String)
+
+[info 2017/03/09 13:40:28.849 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/async-event-queues],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.QueueCommandsController.listAsyncEventQueues()
+
+[info 2017/03/09 13:40:28.850 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.createRegion(java.lang.String,java.lang.String,java.lang.String,java.lang.String[],java.lang.Boolean,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.Boolean,java.lang.String[],java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Long,java.lang.Integer,java.lang.Long,java.lang.Long,java.lang.Integer,java.lang.String)
+
+[info 2017/03/09 13:40:28.850 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{name}],methods=[DELETE]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.destroyRegion(java.lang.String)
+
+[info 2017/03/09 13:40:28.850 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.listRegions(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.851 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{name}],methods=[PUT]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.alterRegion(org.springframework.web.context.request.WebRequest,java.lang.String,java.lang.String[],java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Integer)
+
+[info 2017/03/09 13:40:28.851 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/regions/{name}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.RegionCommandsController.describeRegion(java.lang.String)
+
+[info 2017/03/09 13:40:28.853 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/mbean/operation],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.invoke(java.lang.String,java.lang.String,java.lang.String[],java.lang.Object[])
+
+[info 2017/03/09 13:40:28.853 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/index],methods=[GET],produces=[application/xml]}" onto public org.apache.geode.management.internal.web.domain.LinkIndex org.apache.geode.management.internal.web.controllers.ShellCommandsController.index(java.lang.String)
+
+[info 2017/03/09 13:40:28.853 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/version],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.version()
+
+[info 2017/03/09 13:40:28.853 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/management/commands],methods=[POST],params=[cmd]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.command(java.lang.String)
+
+[info 2017/03/09 13:40:28.854 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/mbean/query],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.queryNames(org.apache.geode.management.internal.web.domain.QueryParameterSource)
+
+[info 2017/03/09 13:40:28.854 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/mbean/attribute],methods=[GET]}" onto public org.springframework.http.ResponseEntity<?> org.apache.geode.management.internal.web.controllers.ShellCommandsController.getAttribute(java.lang.String,java.lang.String)
+
+[info 2017/03/09 13:40:28.854 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/ping],methods=[GET || HEAD]}" onto public org.springframework.http.ResponseEntity<java.lang.String> org.apache.geode.management.internal.web.controllers.ShellCommandsController.ping()
+
+[info 2017/03/09 13:40:28.854 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/version/full],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.ShellCommandsController.versionSimple()
+
+[info 2017/03/09 13:40:28.857 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders],methods=[POST],params=[op=start]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.startGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.858 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.createGatewaySender(java.lang.String,java.lang.Integer,java.lang.String[],java.lang.String[],java.lang.Boolean,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Boolean,java.lang.String,java.lang.Boolean,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.858 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=pause]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.pauseGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.858 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=resume]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.resumeGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.858 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=stop]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.stopGatewaySender(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.859 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/receivers],methods=[POST]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.createGatewayReceiver(java.lang.String[],java.lang.Boolean,java.lang.String[],java.lang.Integer,java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String[])
+
+[info 2017/03/09 13:40:28.859 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[POST],params=[op=load-balance]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.loadBalanceGatewaySender(java.lang.String)
+
+[info 2017/03/09 13:40:28.859 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/receivers],methods=[POST],params=[op=start]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.startGatewayReceiver(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.859 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/receivers],methods=[POST],params=[op=stop]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.stopGatewayReceiver(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.859 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.listGateways(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.860 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/receivers],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.statusGatewayReceivers(java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.860 PST loc1 <locator request thread[1]> tid=0x27] Mapped "{[/v1/gateways/senders/{id}],methods=[GET]}" onto public java.lang.String org.apache.geode.management.internal.web.controllers.WanCommandsController.statusGatewaySenders(java.lang.String,java.lang.String[],java.lang.String[])
+
+[info 2017/03/09 13:40:28.938 PST loc1 <locator request thread[1]> tid=0x27] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Mar 09 13:40:28 PST 2017]; root of context hierarchy
+
+[info 2017/03/09 13:40:28.976 PST loc1 <locator request thread[1]> tid=0x27] Looking for @ControllerAdvice: WebApplicationContext for namespace 'geode-mgmt-servlet': startup date [Thu Mar 09 13:40:28 PST 2017]; root of context hierarchy
+
+[info 2017/03/09 13:40:29.064 PST loc1 <locator request thread[1]> tid=0x27] FrameworkServlet 'geode-mgmt': initialization completed in 579 ms
+
+[info 2017/03/09 13:40:29.064 PST loc1 <locator request thread[1]> tid=0x27] Started o.e.j.w.WebAppContext@6735538a{/geode-mgmt,file:///Users/wlund/Dropbox/git-workspace/wxlund/batch-4-spring-tip/batch-demo-java/scripts/loc1/GemFire_wlund/services/http/0.0.0.0_7070_geode-mgmt/webapp/,AVAILABLE}{/usr/local/Cellar/gemfire/9.0.1/libexec/tools/Extensions/geode-web-9.0.1.war}
+
+[info 2017/03/09 13:40:29.431 PST loc1 <locator request thread[1]> tid=0x27] NO JSP Support for /pulse, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+[info 2017/03/09 13:40:29.462 PST loc1 <locator request thread[1]> tid=0x27] Initializing Spring root WebApplicationContext
+
+[info 2017/03/09 13:40:30.734 PST loc1 <locator request thread[1]> tid=0x27] Initializing Spring FrameworkServlet 'mvc-dispatcher'
+
+[info 2017/03/09 13:40:30.988 PST loc1 <locator request thread[1]> tid=0x27] Started o.e.j.w.WebAppContext@10729ec0{/pulse,file:///Users/wlund/Dropbox/git-workspace/wxlund/batch-4-spring-tip/batch-demo-java/scripts/loc1/GemFire_wlund/services/http/0.0.0.0_7070_pulse/webapp/,AVAILABLE}{/usr/local/Cellar/gemfire/9.0.1/libexec/tools/Pulse/geode-pulse-9.0.1.war}
+
+[info 2017/03/09 13:40:30.998 PST loc1 <locator request thread[1]> tid=0x27] Started ServerConnector@4f586b7e{HTTP/1.1,[http/1.1]}{0.0.0.0:7070}
+
+[info 2017/03/09 13:40:30.998 PST loc1 <locator request thread[1]> tid=0x27] Started @7462ms
+
+[info 2017/03/09 13:40:38.994 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=59) Executing configure pdx --read-serialized=true
+
+[info 2017/03/09 13:40:39.043 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] XmlEntity:searchString: //cache:pdx
+
+[info 2017/03/09 13:40:39.106 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] Configuration change successful
+
+[info 2017/03/09 13:41:13.162 PST loc1 <unicast receiver,Waynes-MacBook-Pro-8-43225> tid=0x21] received join request from 10.0.0.45(server1:23393):1025
+
+[info 2017/03/09 13:41:13.476 PST loc1 <Geode Membership View Creator> tid=0x28] View Creator is processing 1 requests for the next membership view
+
+[info 2017/03/09 13:41:13.476 PST loc1 <Geode Membership View Creator> tid=0x28] preparing new view View[10.0.0.45(loc1:23325:locator)<ec><v0>:1024|1] members: [10.0.0.45(loc1:23325:locator)<ec><v0>:1024, 10.0.0.45(server1:23393)<v1>:1025{lead}]
+  failure detection ports: 24262 15388
+
+[info 2017/03/09 13:41:13.486 PST loc1 <Geode Membership View Creator> tid=0x28] finished waiting for responses to view preparation
+
+[info 2017/03/09 13:41:13.486 PST loc1 <Geode Membership View Creator> tid=0x28] received new view: View[10.0.0.45(loc1:23325:locator)<ec><v0>:1024|1] members: [10.0.0.45(loc1:23325:locator)<ec><v0>:1024, 10.0.0.45(server1:23393)<v1>:1025{lead}]
+  old view is: View[10.0.0.45(loc1:23325:locator)<ec><v0>:1024|0] members: [10.0.0.45(loc1:23325:locator)<ec><v0>:1024]
+
+[info 2017/03/09 13:41:13.486 PST loc1 <Geode Membership View Creator> tid=0x28] Peer locator received new membership view: View[10.0.0.45(loc1:23325:locator)<ec><v0>:1024|1] members: [10.0.0.45(loc1:23325:locator)<ec><v0>:1024, 10.0.0.45(server1:23393)<v1>:1025{lead}]
+
+[info 2017/03/09 13:41:13.487 PST loc1 <Geode Membership View Creator> tid=0x28] sending new view View[10.0.0.45(loc1:23325:locator)<ec><v0>:1024|1] members: [10.0.0.45(loc1:23325:locator)<ec><v0>:1024, 10.0.0.45(server1:23393)<v1>:1025{lead}]
+  failure detection ports: 24262 15388
+
+[info 2017/03/09 13:41:13.488 PST loc1 <View Message Processor> tid=0x4e] Membership: Processing addition < 10.0.0.45(server1:23393)<v1>:1025 >
+
+[info 2017/03/09 13:41:13.488 PST loc1 <View Message Processor> tid=0x4e] Admitting member <10.0.0.45(server1:23393)<v1>:1025>. Now there are 2 non-admin member(s).
+
+[info 2017/03/09 13:41:13.492 PST loc1 <pool-3-thread-1> tid=0x50] Initializing region _monitoringRegion_10.0.0.45<v1>1025
+
+[info 2017/03/09 13:41:13.517 PST loc1 <Pooled High Priority Message Processor 1> tid=0x54] Member 10.0.0.45(server1:23393)<v1>:1025 is equivalent or in the same redundancy zone.
+
+[info 2017/03/09 13:41:13.548 PST loc1 <pool-3-thread-1> tid=0x50] Initialization of region _monitoringRegion_10.0.0.45<v1>1025 completed
+
+[info 2017/03/09 13:41:13.554 PST loc1 <pool-3-thread-1> tid=0x50] Initializing region _notificationRegion_10.0.0.45<v1>1025
+
+[info 2017/03/09 13:41:13.556 PST loc1 <pool-3-thread-1> tid=0x50] Initialization of region _notificationRegion_10.0.0.45<v1>1025 completed
+
+[info 2017/03/09 13:41:13.681 PST loc1 <locator request thread[1]> tid=0x27] Received request for configuration  : ConfigurationRequest for groups : 
+   cluster[cluster]
+
+[info 2017/03/09 13:41:13.682 PST loc1 <locator request thread[1]> tid=0x27] Building up configuration response with following configurations: [cluster]
+
+[info 2017/03/09 13:41:33.572 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=60) Executing create region --name=person --type=REPLICATE
+
+[info 2017/03/09 13:41:33.823 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] Configuration change successful
+
+[info 2017/03/09 13:41:39.252 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=61) Executing list regions
+
+[info 2017/03/09 14:40:57.520 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=62) Executing list regions
+
+[info 2017/03/09 14:41:13.198 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=63) Executing show metrics --region=/person
+
+[info 2017/03/09 14:41:31.950 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=64) Executing query --query="select * from /person" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:41:40.578 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=65) Executing query --query="select * from /person" --step-name=SELECT_END
+
+[info 2017/03/09 14:42:03.370 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=66) Executing query --query="select e.key, e.value from /person.entrySet e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:42:12.034 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=67) Executing query --query="select e.key, e.value from /person.entrySet e" --step-name=SELECT_END
+
+[info 2017/03/09 14:42:22.347 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=68) Executing query --query="select e.key, e.value.value from /person.entrySet e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:42:30.173 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=69) Executing query --query="select e.key, e.value.value from /person.entrySet e" --step-name=SELECT_END
+
+[info 2017/03/09 14:42:38.318 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=70) Executing query --query="select e.key, e.value.age from /person.entrySet e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:42:42.830 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=71) Executing query --query="select e.key, e.value.age from /person.entrySet e" --step-name=SELECT_END
+
+[info 2017/03/09 14:42:51.376 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=72) Executing query --query="select e.key, e.value.age from /person e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:42:55.120 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=73) Executing query --query="select e.key, e.value.age from /person e" --step-name=SELECT_END
+
+[info 2017/03/09 14:43:11.948 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=74) Executing query --query="select e.key, e.age from /person e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:43:14.440 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=75) Executing query --query="select e.key, e.age from /person e" --step-name=SELECT_END
+
+[info 2017/03/09 14:43:24.230 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=76) Executing query --query="select e.age from /person e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:43:28.037 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=77) Executing query --query="select e.age from /person e" --step-name=SELECT_END
+
+[info 2017/03/09 14:43:36.031 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=78) Executing query --query="select age from /person " --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:43:49.466 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=79) Executing query --query="select age from /person " --step-name=SELECT_PAGE_MOVE
+
+[info 2017/03/09 14:43:52.029 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=80) Executing query --query="select age from /person " --step-name=SELECT_END
+
+[info 2017/03/09 14:44:11.054 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=81) Executing get --region=/person --key=1
+
+[info 2017/03/09 14:44:15.724 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=82) Executing get --region=/person --key="1"
+
+[info 2017/03/09 14:44:46.642 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=83) Executing get --region=/person --key=1
+
+[info 2017/03/09 14:45:08.056 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=84) Executing get --region=/person --key={"id":1}
+
+[info 2017/03/09 14:45:21.613 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=85) Executing query --query="select e.key from /person e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:45:25.892 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=86) Executing query --query="select e.key from /person e" --step-name=SELECT_END
+
+[info 2017/03/09 14:45:34.762 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=87) Executing query --query="select e.key from /person.entrySet e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:45:38.515 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=88) Executing query --query="select e.key from /person.entrySet e" --step-name=SELECT_END
+
+[info 2017/03/09 14:45:49.829 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=89) Executing query --query="select e.value from /person.entrySet e" --step-name=SELECT_EXEC
+
+[info 2017/03/09 14:46:00.593 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=90) Executing query --query="select e.value from /person.entrySet e" --step-name=SELECT_END
+
+[info 2017/03/09 14:59:44.399 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=91) Executing list regions
+
+[info 2017/03/09 14:59:51.846 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=92) Executing remove --region=person
+
+[info 2017/03/09 15:00:04.398 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=93) Executing remove --region=/person
+
+[info 2017/03/09 15:00:13.509 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=94) Executing list regions
+
+[info 2017/03/09 15:01:13.587 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=95) Executing remove --region=/person --all
+
+[info 2017/03/09 15:01:17.451 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=96) Executing list regions
+
+[info 2017/03/09 15:01:32.114 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=97) Executing query --query="select * from /person" --step-name=SELECT_EXEC
+
+[info 2017/03/09 15:01:32.120 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=98) Executing query --query="select * from /person" --step-name=SELECT_END
+
+[info 2017/03/09 15:05:42.641 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=99) Executing query --query="select * from /person" --step-name=SELECT_EXEC
+
+[info 2017/03/09 15:05:42.662 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=100) Executing query --query="select * from /person" --step-name=SELECT_END
+
+[info 2017/03/09 15:05:51.674 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=101) Executing list regions
+
+[info 2017/03/09 15:06:06.329 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=102) Executing query --query="select * from /person p" --step-name=SELECT_EXEC
+
+[info 2017/03/09 15:06:06.337 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=103) Executing query --query="select * from /person p" --step-name=SELECT_END
+
+[info 2017/03/09 15:07:03.888 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=104) Executing show metrics --region=/person
+
+[info 2017/03/09 15:15:25.022 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=105) Executing query --query="select * from /person p where id=1" --step-name=SELECT_EXEC
+
+[info 2017/03/09 15:15:25.039 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=106) Executing query --query="select * from /person p where id=1" --step-name=SELECT_END
+
+[info 2017/03/09 15:21:58.395 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=107) Executing query --query="select * from /person p where id=1" --step-name=SELECT_EXEC
+
+[info 2017/03/09 15:21:58.409 PST loc1 <RMI TCP Connection(2)-10.0.0.45> tid=0x4a] (tid=74 msgId=108) Executing query --query="select * from /person p where id=1" --step-name=SELECT_END
